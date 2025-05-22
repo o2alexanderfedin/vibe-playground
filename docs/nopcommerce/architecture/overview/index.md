@@ -21,6 +21,11 @@ nopCommerce is built on modern .NET Core technology with a modular, layered arch
 - [Technology Stack](technology-stack.md) - Core technologies and frameworks
 - [Solution Structure](solution-structure.md) - Organization of projects and files
 - [Key Concepts](key-concepts.md) - Important concepts and terminology
+- [Target Audience](target-audience.md) - Analysis of intended users
+- [Customer Profiles](customer-profiles.md) - Detailed user personas
+- [Customer Survey](customer-survey.md) - Feedback and insights from users
+- [Audience Analysis](audience-analysis.md) - Comprehensive audience assessment
+- [Documentation Process](documentation-process.md) - Documentation development methodology
 
 ## Architectural Layers
 

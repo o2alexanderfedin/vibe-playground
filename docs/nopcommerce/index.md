@@ -18,6 +18,7 @@ This comprehensive technical documentation covers the architecture of nopCommerc
    - [Customer Profiles](architecture/overview/customer-profiles.md)
    - [Customer Survey](architecture/overview/customer-survey.md)
    - [Audience Analysis](architecture/overview/audience-analysis.md)
+   - [Documentation Process](architecture/overview/documentation-process.md)
 
 2. [Core Framework](architecture/core/index.md)
    - [Domain Model](architecture/core/domain-model.md)
