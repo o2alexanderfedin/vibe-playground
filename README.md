@@ -1,4 +1,4 @@
-# Todo App v1.1.0
+# Todo App v1.2.0
 
 A simple todo application that allows users to:
 - Add new tasks
@@ -67,7 +67,7 @@ A simple todo application that allows users to:
 
 1. **Every task must start with a technical architecture document**
 2. **Architecture documents must include Mermaid diagrams**
-3. **All work must follow the GitFlow workflow**
+3. **All work must follow the GitFlow workflow with main branch**
 
 ## Usage
 

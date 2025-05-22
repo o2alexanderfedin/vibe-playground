@@ -32,7 +32,8 @@ flowchart TD
    - Create feature branches from develop
    - Finish features by merging back to develop
    - Create release branches for version preparation
-   - Hotfix critical issues from main
+   - Hotfix critical issues from main (formerly master)
+   - Main is the production branch
 
 4. **Documentation Updates**
    - Update README.md with new feature information
