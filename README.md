@@ -32,36 +32,54 @@ A simple todo application that allows users to:
 │       └── db.js         # IndexedDB implementation
 │
 ├── docs/                 # Documentation
-│   ├── ARCHITECTURE.md      # Base technical architecture
-│   ├── SEARCH_ARCHITECTURE.md  # Search feature architecture
-│   ├── INDEXEDDB_ARCHITECTURE.md  # Database architecture
-│   ├── DOCKER_ARCHITECTURE.md  # Docker implementation architecture
-│   └── CONTRIBUTING.md      # Contribution guidelines
+│   ├── architecture/     # Architecture documentation
+│   │   ├── base/         # Base technical architecture
+│   │   └── features/     # Feature-specific architecture
+│   │       ├── search/   # Search functionality
+│   │       ├── indexeddb/# IndexedDB storage
+│   │       └── docker/   # Docker implementation
+│   ├── workflow/         # Workflow documentation
+│   │   ├── WORKFLOW.md   # Mandatory workflow rules
+│   │   ├── CONTRIBUTING.md # Contribution guidelines
+│   │   └── DOCUMENTATION_PROCESS.md # Documentation process
+│   ├── profiles/         # Technical architect profiles
+│   └── nopcommerce/      # nopCommerce documentation
 │
-├── Dockerfile            # Docker configuration
-├── nginx.conf            # Nginx web server configuration
-├── docker-compose.yml    # Docker Compose setup
-├── scripts/              # Helper scripts
-│   ├── build.sh          # Docker build script
-│   ├── run.sh            # Docker run script
-│   └── docker-compose-up.sh  # Docker Compose script
+├── config/               # Configuration files
+│   ├── docker/           # Docker configuration
+│   │   ├── Dockerfile    # Docker image configuration
+│   │   ├── nginx.conf    # Nginx web server configuration
+│   │   └── docker-compose.yml # Docker Compose setup
+│   └── scripts/          # Helper scripts
+│       ├── build.sh      # Docker build script
+│       ├── run.sh        # Docker run script
+│       └── docker-compose-up.sh # Docker Compose script
 │
-├── WORKFLOW.md           # Mandatory workflow rules
+├── reports/              # Analysis reports
+│   ├── performance/      # Performance analysis
+│   └── comparisons/      # Comparative analysis
+│
 └── .github/              # GitHub configurations
     └── workflows/        # GitHub Actions workflows
 ```
 
 ## Documentation
 
-- [Technical Architecture](docs/ARCHITECTURE.md) - System design and component diagrams
-- [Search Architecture](docs/SEARCH_ARCHITECTURE.md) - Search feature implementation
-- [IndexedDB Architecture](docs/INDEXEDDB_ARCHITECTURE.md) - Browser database storage
-- [Docker Architecture](docs/DOCKER_ARCHITECTURE.md) - Containerization architecture
-- [Contribution Guidelines](docs/CONTRIBUTING.md) - GitFlow process and coding standards
-- [Workflow Rules](WORKFLOW.md) - **Mandatory** process for all project tasks
-- [Documentation Process](docs/DOCUMENTATION_PROCESS.md) - Documentation creation methodology
-- [nopCommerce Documentation](docs/nopcommerce/index.md) - Comprehensive technical documentation
-- [Technical Architect Profiles](docs/profiles/index.md) - Architect role guides and templates
+- [Architecture Documentation](docs/architecture/index.md)
+  - [Technical Architecture](docs/architecture/base/ARCHITECTURE.md) - System design and component diagrams
+  - [Search Architecture](docs/architecture/features/search/SEARCH_ARCHITECTURE.md) - Search feature implementation
+  - [IndexedDB Architecture](docs/architecture/features/indexeddb/INDEXEDDB_ARCHITECTURE.md) - Browser database storage
+  - [Docker Architecture](docs/architecture/features/docker/DOCKER_ARCHITECTURE.md) - Containerization architecture
+
+- [Workflow Documentation](docs/workflow/index.md)
+  - [Workflow Rules](docs/workflow/WORKFLOW.md) - **Mandatory** process for all project tasks
+  - [Contribution Guidelines](docs/workflow/CONTRIBUTING.md) - GitFlow process and coding standards
+  - [Documentation Process](docs/workflow/DOCUMENTATION_PROCESS.md) - Documentation creation methodology
+
+- [Other Documentation]
+  - [nopCommerce Documentation](docs/nopcommerce/index.md) - Comprehensive technical documentation
+  - [Technical Architect Profiles](docs/profiles/index.md) - Architect role guides and templates
+  - [Reports](reports/index.md) - Analysis and performance reports
 
 ## Project Rules
 
@@ -82,7 +100,7 @@ A simple todo application that allows users to:
 #### Using Docker Compose (Recommended)
 ```bash
 # Start the container
-./scripts/docker-compose-up.sh
+./config/scripts/docker-compose-up.sh
 
 # Access the app at http://localhost:8080
 ```
@@ -90,13 +108,13 @@ A simple todo application that allows users to:
 #### Using Docker Directly
 ```bash
 # Build the Docker image
-./scripts/build.sh
+./config/scripts/build.sh
 
 # Run the container
-./scripts/run.sh
+./config/scripts/run.sh
 
 # Access the app at http://localhost:8080
 ```
 
 ## Development
-This project follows the GitFlow workflow. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details and [WORKFLOW.md](WORKFLOW.md) for mandatory process rules.
+This project follows the GitFlow workflow. See [CONTRIBUTING.md](docs/workflow/CONTRIBUTING.md) for details and [WORKFLOW.md](docs/workflow/WORKFLOW.md) for mandatory process rules.

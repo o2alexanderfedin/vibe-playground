@@ -4,7 +4,7 @@ This document provides guidelines for contributing to the Todo App project.
 
 ## Mandatory Workflow
 
-**IMPORTANT**: All contributors **MUST** follow the rules defined in [WORKFLOW.md](../WORKFLOW.md). This is a non-negotiable requirement.
+**IMPORTANT**: All contributors **MUST** follow the rules defined in [WORKFLOW.md](WORKFLOW.md). This is a non-negotiable requirement.
 
 1. Every task must start with a technical architecture document
 2. Architecture documents must include Mermaid diagrams
@@ -60,7 +60,7 @@ gitGraph
 
 For each significant task or feature:
 
-1. Create a technical architecture document in the `docs` folder **BEFORE** any implementation
+1. Create a technical architecture document in the `docs/architecture` folder **BEFORE** any implementation
 2. Include Mermaid diagrams to visualize:
    - Component relationships
    - Data flow

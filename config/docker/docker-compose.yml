@@ -1,0 +1,12 @@
+name: todo-app
+
+services:
+  todo-app:
+    build:
+      context: ../../
+      dockerfile: config/docker/Dockerfile
+    ports:
+      - "8888:80"
+    volumes:
+      - ../../src:/usr/share/nginx/html
+    restart: unless-stopped
