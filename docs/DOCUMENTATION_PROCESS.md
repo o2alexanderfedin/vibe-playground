@@ -126,7 +126,7 @@ This document outlines the steps and prompts used to create the comprehensive no
    git add -A
    git commit -m "Prepare release v1.0.0"
    git flow release finish -m "Release_version_1.0.0" 1.0.0
-   git push origin master
+   git push origin main
    git push origin develop
    git push --tags
    ```

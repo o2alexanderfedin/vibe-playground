@@ -41,7 +41,7 @@ gitGraph
 ```
 
 ### Branch Structure
-- `main`: Production code
+- `main`: Production code (formerly master)
 - `develop`: Latest development changes
 - `feature/*`: New features
 - `release/*`: Release preparation
