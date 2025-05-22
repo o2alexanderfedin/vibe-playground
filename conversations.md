@@ -13,3 +13,5 @@
 9. Claude: Will execute all tasks using GitFlow workflow (feature branches, etc.)
 10. User: "let's create todo app"
 11. Claude: Created feature/todo-app branch and implemented basic todo application with HTML, CSS, and JavaScript
+12. User: "let's move all artifacts to a nested folder"
+13. Claude: Created feature/organize-folders branch and moved files to a structured directory layout (src/js, src/css)
