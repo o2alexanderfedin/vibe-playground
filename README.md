@@ -1,4 +1,4 @@
-# Todo App
+# Todo App v1.0.0
 
 A simple todo application that allows users to:
 - Add new tasks
