@@ -30,6 +30,44 @@ h1 {
     color: #333;
 }
 
+/* Search container styles */
+.search-container {
+    display: flex;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.search-container button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+    display: none;
+}
+
+.search-container input:focus + button,
+.search-container input:not(:placeholder-shown) + button {
+    display: block;
+}
+
+.search-container button:hover {
+    color: #666;
+}
+
 .todo-input {
     display: flex;
     margin-bottom: 20px;
@@ -76,6 +114,11 @@ h1 {
     color: #888;
 }
 
+/* Add styles for the hidden class to hide filtered todos */
+.todo-list li.hidden {
+    display: none;
+}
+
 .todo-list li button {
     background-color: #e74c3c;
     color: white;
@@ -94,4 +137,12 @@ h1 {
     text-align: center;
     color: #777;
     font-size: 14px;
+}
+
+/* Empty state message */
+.empty-message {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 15px 0;
 }
