@@ -15,3 +15,5 @@
 11. Claude: Created feature/todo-app branch and implemented basic todo application with HTML, CSS, and JavaScript
 12. User: "let's move all artifacts to a nested folder"
 13. Claude: Created feature/organize-folders branch and moved files to a structured directory layout (src/js, src/css)
+14. User: "release"
+15. Claude: Created release/1.0.0 branch, added version information to app, and prepared for final release
