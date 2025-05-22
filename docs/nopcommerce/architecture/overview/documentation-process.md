@@ -1,5 +1,7 @@
 # nopCommerce Audience Analysis Documentation Process
 
+[Home](../../index.md) | [Overview](index.md) | [Previous: Audience Analysis](audience-analysis.md) | [Next: System Architecture](system-architecture.md)
+
 This document outlines the methodology and steps taken to create the nopCommerce audience analysis, customer profiles, and survey design documentation.
 
 ## Process Overview
@@ -188,6 +190,14 @@ Add nopCommerce audience analysis and customer profiles documents
 This methodology demonstrates a systematic approach to understanding and documenting software architecture from both technical and audience perspectives. By combining technical analysis with user-centered documentation, we created comprehensive resources that serve both development teams and business stakeholders.
 
 The resulting documentation provides a clear picture of who uses nopCommerce, their needs and challenges, and how the platform's architecture addresses those requirements.
+
+---
+
+*Previous: [Audience Analysis](audience-analysis.md) | [Next: System Architecture](system-architecture.md)*
+
+---
+
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Audience Analysis](audience-analysis.md) | [Next: System Architecture](system-architecture.md)*
 
 ---
 

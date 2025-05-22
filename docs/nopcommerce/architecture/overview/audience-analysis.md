@@ -1,5 +1,7 @@
 # nopCommerce Audience Analysis and Customer Research
 
+[Home](../../index.md) | [Overview](index.md) | [Previous: Customer Survey](customer-survey.md) | [Next: Documentation Process](documentation-process.md)
+
 ## Executive Summary
 
 This document provides a comprehensive analysis of nopCommerce's target audience, typical customer profiles, and a methodology for gathering customer feedback through surveys. Based on the platform's architecture and capabilities, we've identified key audience segments, created detailed personas, and designed a structured approach to understanding customer needs and preferences.
@@ -163,3 +165,11 @@ timeline
 ```
 
 By aligning product development with the needs of these customer profiles and leveraging the architectural strengths of nopCommerce, the platform can continue to serve its diverse audience effectively while expanding its market reach.
+
+---
+
+*Previous: [Customer Survey](customer-survey.md) | [Next: Documentation Process](documentation-process.md)*
+
+---
+
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Customer Survey](customer-survey.md) | [Next: Documentation Process](documentation-process.md)*

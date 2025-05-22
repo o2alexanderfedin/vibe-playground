@@ -1,5 +1,7 @@
 # nopCommerce Customer Survey Design
 
+[Home](../../index.md) | [Overview](index.md) | [Previous: Customer Profiles](customer-profiles.md) | [Next: Audience Analysis](audience-analysis.md)
+
 This document outlines a comprehensive customer survey approach to gather feedback on nopCommerce features based on the identified customer profiles.
 
 ## Survey Methodology
@@ -233,3 +235,11 @@ gantt
     Findings Presentation   :d1, after c3, 1d
     Roadmap Integration     :d2, after d1, 14d
 ```
+
+---
+
+*Previous: [Customer Profiles](customer-profiles.md) | [Next: Audience Analysis](audience-analysis.md)*
+
+---
+
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Customer Profiles](customer-profiles.md) | [Next: Audience Analysis](audience-analysis.md)*

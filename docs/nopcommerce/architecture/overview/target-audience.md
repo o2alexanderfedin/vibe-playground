@@ -1,5 +1,7 @@
 # nopCommerce Target Audience Analysis
 
+[Home](../../index.md) | [Overview](index.md) | [Previous: Key Concepts](key-concepts.md) | [Next: Customer Profiles](customer-profiles.md)
+
 ## Overview
 
 Based on the nopCommerce architecture analysis, this document defines the target audience for nopCommerce, creates typical customer profiles, and outlines a customer survey approach to gather feedback on features.
@@ -55,3 +57,11 @@ pie title nopCommerce Target Audience Distribution
     "Solution Providers / Agencies" : 25
     "Independent Developers" : 10
 ```
+
+---
+
+*Previous: [Key Concepts](key-concepts.md) | [Next: Customer Profiles](customer-profiles.md)*
+
+---
+
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Key Concepts](key-concepts.md) | [Next: Customer Profiles](customer-profiles.md)*

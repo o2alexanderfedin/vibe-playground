@@ -1,5 +1,7 @@
 # nopCommerce Customer Profiles
 
+[Home](../../index.md) | [Overview](index.md) | [Previous: Target Audience](target-audience.md) | [Next: Customer Survey](customer-survey.md)
+
 This document outlines typical customer profiles for nopCommerce based on the platform's architecture and target audience analysis.
 
 ## Typical Customer Profiles
@@ -134,3 +136,11 @@ journey
       Scaling Operations: 3: Sarah, 5: Michael, 4: Elena, 3: David
       Multi-channel Expansion: 3: Sarah, 5: Michael, 4: Elena, 2: David
 ```
+
+---
+
+*Previous: [Target Audience](target-audience.md) | [Next: Customer Survey](customer-survey.md)*
+
+---
+
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Target Audience](target-audience.md) | [Next: Customer Survey](customer-survey.md)*
