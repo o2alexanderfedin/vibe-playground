@@ -1,7 +1,7 @@
-# Todo App v1.2.0
+# Todo App v1.3.0
 
 [![GitFlow](https://img.shields.io/badge/GitFlow-Enabled-brightgreen.svg)](docs/workflow/index.md)
-[![Version](https://img.shields.io/badge/Version-1.2.0-blue.svg)](https://github.com/o2alexanderfedin/vibe-playground/releases)
+[![Version](https://img.shields.io/badge/Version-1.3.0-blue.svg)](https://github.com/o2alexanderfedin/vibe-playground/releases)
 [![License](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 
 A simple, organized todo application that allows users to:
