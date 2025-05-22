@@ -1,6 +1,6 @@
 # nopCommerce System Architecture
 
-[Home](../../index.md) | [Overview](index.md) | [Previous: Overview](index.md) | [Next: Design Patterns](design-patterns.md)
+[Home](../../index.md) | [Overview](index.md) | [Previous: Documentation Process](documentation-process.md) | [Next: Design Patterns](design-patterns.md)
 
 ## High-Level Architecture
 
@@ -203,4 +203,4 @@ sequenceDiagram
 
 ---
 
-*[Home](../../index.md) | [Overview](index.md) | [Previous: Overview](index.md) | [Next: Design Patterns](design-patterns.md)*
+*[Home](../../index.md) | [Overview](index.md) | [Previous: Documentation Process](documentation-process.md) | [Next: Design Patterns](design-patterns.md)*
