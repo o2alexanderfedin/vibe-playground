@@ -2,7 +2,7 @@
 
 [![GitFlow](https://img.shields.io/badge/GitFlow-Enabled-brightgreen.svg)](docs/workflow/index.md)
 [![Version](https://img.shields.io/badge/Version-1.2.0-blue.svg)](https://github.com/o2alexanderfedin/vibe-playground/releases)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 
 A simple, organized todo application that allows users to:
 - Add new tasks
@@ -173,4 +173,6 @@ This project follows the GitFlow workflow. See [CONTRIBUTING.md](docs/workflow/C
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) - see the [LICENSE](LICENSE) file for details.
+
+AGPL-3.0 is a strong copyleft license that requires anyone who distributes your code or a derivative work to make the source available under the same terms. This license is particularly suited for applications that run on network servers.
