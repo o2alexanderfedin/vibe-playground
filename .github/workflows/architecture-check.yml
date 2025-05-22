@@ -25,8 +25,8 @@ jobs:
             FEATURE_NAME=$(echo $BRANCH_NAME | sed 's/feature\///')
             echo "Feature name: $FEATURE_NAME"
             
-            # Check if changes to docs directory exist in this branch
-            DOC_CHANGES=$(git diff --name-only origin/develop..HEAD | grep -E "^docs/")
+            # Check if changes to architecture docs directory exist in this branch
+            DOC_CHANGES=$(git diff --name-only origin/develop..HEAD | grep -E "^docs/architecture/")
             
             if [ -z "$DOC_CHANGES" ]; then
               echo "::error::No documentation changes found. Each feature must update or add architecture documentation."
