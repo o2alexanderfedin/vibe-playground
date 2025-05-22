@@ -17,3 +17,7 @@
 13. Claude: Created feature/organize-folders branch and moved files to a structured directory layout (src/js, src/css)
 14. User: "release"
 15. Claude: Created release/1.0.0 branch, added version information to app, and prepared for final release
+16. User: "run the app"
+17. Claude: Started a local web server to run the Todo app on port 9999
+18. User: "I want you to start every task with tech architecture document. Use Mermaid diagrams if needed."
+19. Claude: Updated CLAUDE.md rules to include creating technical architecture documents with Mermaid diagrams for all tasks
