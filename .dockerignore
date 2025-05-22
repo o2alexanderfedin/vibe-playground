@@ -1,0 +1,34 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Node modules (if added in the future)
+node_modules
+
+# Documentation
+docs
+*.md
+!README.md
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Scripts
+scripts
+
+# IDE specific files
+.vscode
+.idea
+*.sublime-*
+
+# Claude files
+.claude
+CLAUDE.md
+conversations.md
+
+# OS specific files
+.DS_Store
+Thumbs.db
