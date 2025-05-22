@@ -25,3 +25,5 @@
 21. Claude: Created formal workflow rules documentation with WORKFLOW.md, added GitHub Actions workflow for enforcement, and updated all documentation to reflect mandatory architecture-first approach
 22. User: "can you add a search func to the app?"
 23. Claude: Created technical architecture document for search functionality with Mermaid diagrams, then implemented search feature with filtering and debouncing
+24. User: "let's store items in browser database"
+25. Claude: Created technical architecture document for IndexedDB storage with detailed Mermaid diagrams, then implemented database module with localStorage fallback
