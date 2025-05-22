@@ -21,3 +21,5 @@
 17. Claude: Started a local web server to run the Todo app on port 9999
 18. User: "I want you to start every task with tech architecture document. Use Mermaid diagrams if needed."
 19. Claude: Updated CLAUDE.md rules to include creating technical architecture documents with Mermaid diagrams for all tasks
+20. User: "make it a rule"
+21. Claude: Created formal workflow rules documentation with WORKFLOW.md, added GitHub Actions workflow for enforcement, and updated all documentation to reflect mandatory architecture-first approach

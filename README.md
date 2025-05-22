@@ -25,15 +25,26 @@ A simple todo application that allows users to:
 │   └── js/           # JavaScript directory
 │       └── app.js
 │
-└── docs/             # Documentation
-    ├── ARCHITECTURE.md  # Technical architecture
-    └── CONTRIBUTING.md  # Contribution guidelines
+├── docs/             # Documentation
+│   ├── ARCHITECTURE.md  # Technical architecture
+│   └── CONTRIBUTING.md  # Contribution guidelines
+│
+├── WORKFLOW.md       # Mandatory workflow rules
+└── .github/          # GitHub configurations
+    └── workflows/    # GitHub Actions workflows
 ```
 
 ## Documentation
 
 - [Technical Architecture](docs/ARCHITECTURE.md) - System design and component diagrams
 - [Contribution Guidelines](docs/CONTRIBUTING.md) - GitFlow process and coding standards
+- [Workflow Rules](WORKFLOW.md) - **Mandatory** process for all project tasks
+
+## Project Rules
+
+1. **Every task must start with a technical architecture document**
+2. **Architecture documents must include Mermaid diagrams**
+3. **All work must follow the GitFlow workflow**
 
 ## Usage
 1. Open `src/index.html` in your browser
@@ -42,4 +53,4 @@ A simple todo application that allows users to:
 4. Click the Delete button to remove a task
 
 ## Development
-This project follows the GitFlow workflow. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
+This project follows the GitFlow workflow. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for details and [WORKFLOW.md](WORKFLOW.md) for mandatory process rules.
