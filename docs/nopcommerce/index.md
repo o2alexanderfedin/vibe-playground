@@ -14,6 +14,10 @@ This comprehensive technical documentation covers the architecture of nopCommerc
    - [Technology Stack](architecture/overview/technology-stack.md)
    - [Solution Structure](architecture/overview/solution-structure.md)
    - [Key Concepts](architecture/overview/key-concepts.md)
+   - [Target Audience](architecture/overview/target-audience.md)
+   - [Customer Profiles](architecture/overview/customer-profiles.md)
+   - [Customer Survey](architecture/overview/customer-survey.md)
+   - [Audience Analysis](architecture/overview/audience-analysis.md)
 
 2. [Core Framework](architecture/core/index.md)
    - [Domain Model](architecture/core/domain-model.md)
@@ -58,6 +62,41 @@ This comprehensive technical documentation covers the architecture of nopCommerc
    - [Database Configuration](architecture/deployment/database.md)
    - [Performance Optimization](architecture/deployment/performance.md)
    - [Scaling Strategies](architecture/deployment/scaling.md)
+
+## Architecture Diagram
+
+```mermaid
+graph TD
+    subgraph Presentation Layer
+    Web[Nop.Web]
+    Framework[Nop.Web.Framework]
+    end
+    
+    subgraph Services Layer
+    Services[Nop.Services]
+    end
+    
+    subgraph Data Access Layer
+    Data[Nop.Data]
+    end
+    
+    subgraph Core Layer
+    Core[Nop.Core]
+    end
+    
+    subgraph Plugin System
+    Plugins[Plugins]
+    end
+    
+    Web --> Framework
+    Framework --> Services
+    Framework --> Core
+    Services --> Data
+    Services --> Core
+    Data --> Core
+    Plugins --> Services
+    Plugins --> Core
+```
 
 ## About This Documentation
 
