@@ -1,4 +1,4 @@
-# Todo App v1.0.0
+# Todo App v1.1.0
 
 A simple todo application that allows users to:
 - Add new tasks
@@ -11,6 +11,8 @@ A simple todo application that allows users to:
 - Real-time search functionality
 - Add tasks with Enter key or button click
 - Docker containerization for easy deployment
+- Comprehensive nopCommerce technical documentation
+- Technical architect profiles and guides
 
 ## Technologies
 - HTML5
@@ -57,6 +59,9 @@ A simple todo application that allows users to:
 - [Docker Architecture](docs/DOCKER_ARCHITECTURE.md) - Containerization architecture
 - [Contribution Guidelines](docs/CONTRIBUTING.md) - GitFlow process and coding standards
 - [Workflow Rules](WORKFLOW.md) - **Mandatory** process for all project tasks
+- [Documentation Process](docs/DOCUMENTATION_PROCESS.md) - Documentation creation methodology
+- [nopCommerce Documentation](docs/nopcommerce/index.md) - Comprehensive technical documentation
+- [Technical Architect Profiles](docs/profiles/index.md) - Architect role guides and templates
 
 ## Project Rules
 
